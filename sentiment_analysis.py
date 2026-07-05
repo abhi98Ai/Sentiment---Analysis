@@ -103,8 +103,3 @@ else:
 
 
 
-# df["Cleaned_Review"]= df["Review"].apply(clean_text)
-
-
-# print("\nSentiment Percentage")
-# sentiment_percentage= (df["Sentiment"].value_counts(normalize=True)*100).round(2)
