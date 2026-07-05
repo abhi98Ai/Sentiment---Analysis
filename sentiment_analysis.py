@@ -101,34 +101,7 @@ else:
     print("Many customers are dissatisfied with the product.")
     print("The company should improve product quality ans customer service.")
 
-# WORD CLOUD-----------
 
-# from worldcloud import WordCloud
-
-# text= " ".join(df["Cleaned_Review"])
-
-# # create World Cloud--
-
-# wordcloud = WordCloud(
-#     width =800,
-#     height=400,
-#     background_color="white"
-# ).generate(text)
-
-# #display Word Cloud
-
-# plt.figure(figsize=(10,5))
-# plt.imshow(wordcloud,interpolation="billinear")
-# plt.axis("off")
-# plt.title("Word Cloud of Amazon Reviews ")
-
-# plt.show()
-
-# df["Cleaned_Review"]= df["Review"].apply(clean_text)
-
-# print(df[["Review","Cleaned_Review"]])
-
-# df= pd.read_csv("data/amazon_reviews.csv")
 
 # df["Cleaned_Review"]= df["Review"].apply(clean_text)
 
